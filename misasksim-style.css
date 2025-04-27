@@ -13,20 +13,14 @@ body {
             color: #ffffff;
             padding: 1rem 0;
         }
-
-         @media only screen and (max-width: 768px) {
-            input[type="text"], input[type="tel"] {
-              width: 100%;
-              padding: 10px;
-              font-size: 14px;
-            }
           
-
+        
+        
         form {
             margin: 20px auto;
             padding: 20px;
-            width: 80%;
-            max-width: 600px;
+            width: 100%;
+            max-width: 800px;
             background-color: #ffffff;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -39,18 +33,19 @@ body {
         }
 
         input[type="text"], select {
-            width: 100%;
             padding: 8px;
             margin-bottom: 15px;
             border: 1px solid #ccc;
             border-radius: 4px;
         }
         input[type="tel"] {
-            width: 100%;
             padding: 8px;
             margin-bottom: 15px;
             border: 1px solid #ccc;
             border-radius: 4px;
+        }
+        .wider-input {
+            width: 300px;
         }
 
         .item-button {
@@ -102,6 +97,9 @@ body {
     margin: 5px;
     cursor: pointer;
     border-radius: 4px;
+}
+.wider-input {
+    width: 200px;
 }
 
 button[type="submit"] {
