@@ -1,0 +1,120 @@
+body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #f9f9f9;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        }
+
+        header, h1 {
+            text-align: center;
+            background: #35424a;
+            color: #ffffff;
+            padding: 1rem 0;
+        }
+
+        form {
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            max-width: 600px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin: 10px 0 5px;
+        }
+
+        input[type="text"], select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="tel"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .item-button {
+    display: inline-block;
+    background-color: #35424a;
+    color: white;
+    border: 1px solid #000000; /* Matches the background color */
+    padding: 12px 20px; /* Slightly larger for a modern feel */
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 14px; /* More rounded for a friendly look */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a soft shadow */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth hover effects */
+}
+.item-button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.item-button.selected {
+    background-color: black;
+    color: white;
+}
+
+.item-button:hover {
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.item-button:active {
+    transform: translateY(0); /* Reset lift effect */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow reduction */
+}
+
+.phone-numbers {
+  position: relative;
+}
+
+.add-phone-number-button {
+    display: inline-block;
+    background-color: #35424a;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+button[type="submit"]:hover {
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+button[type="submit"]:active {
+    transform: translateY(0); /* Reset lift effect */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow reduction */
+}
+
+
+.additional-phone-number-container {
+  margin-top: 10px;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+    <title>
+        BSD: Dovid Sabel-Misaskim App
+    </title>
+    <link rel="stylesheet" href="misasksim-style.css">
+</head>
+
+<body>
+    <h1>Misaskim App logic-preview</h1>
+    
+    <form>
+        <label for='family name'>NAME
+        </label>
+
+        <input type="text" 
+            id="family name"
+            name="family name"
+            class="wider-input"
+            placeholder="Enter family name">
+
+        <label for="phone-number">PRIMARY PHONE NUMBER</label>
+        
+        <input type="tel"
+            id="phone-number"
+            name="phone-number"
+            class="wider-input"
+            pattern="[0-9]{10}"
+            placeholder="123-456-7890">
+        </imput>
+
+        <div class="phone-numbers">
+            <button class="add-phone-number-button" type="button">+  ADD PHONE NUMBER</button>
+            <div class="additional-phone-number-container" style="display: none;">
+              <input type="tel" id="additional-phone-number" name="additional-phone-number" placeholder="123-456-7890">
+            </div>
+          </div>
+
+        <label
+            for="shiva chairs">
+            Shiva Chairs Amount
+        </label>
+        <select id="shivaChairsAmount" name="shivaChairsAmount">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <label
+            for="shiva Tables">
+            Shiva Tables Amount
+        </label>
+        <select id="shivaTablesAmount" name="shivaTablesAmount">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        
+        <label
+            for="folding chairs">
+            Folding Chairs Amount
+            </label>
+
+        <select id="foldingChairsAmount" name="foldingChairsAmount">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            </select>
+
+        <div id="itemButtons">
+            <button type="button"
+                class="item-button" 
+                data item="ST">
+                ST
+            </button>
+            
+            <button type="button"
+                class="item-button"
+                data-item="Shtender">
+                SHTENDER
+            </button>
+            <button type="button"
+                class="item-button"
+                data-item="Candle">
+                CANDLE
+            </button>
+            <button type="button"
+                class="item-button"
+                data-item="Pushka">
+                PUSHKA
+            </button>
+            <button type="button"
+                class="item-button"
+                data-item="Mechitza">
+                MECHITZAH
+            </button>
+
+
+
+            <button type="button"
+                class="item-button"
+                data-item="thankYou">
+                THANK HASHEM FOR EVERYTHING!
+            </button>
+        </div>
+        <div>
+        <button type="submit" id="submitButton">Submit</button>
+        </div>
+    </form>
+
+<script src="misaskim-scripts.js"></script>
+</body>
+</html>
